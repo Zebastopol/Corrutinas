@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:layout_margin="20dp"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    android:visibility="visible"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/txtUser"
@@ -42,5 +43,6 @@
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
 </LinearLayout>
